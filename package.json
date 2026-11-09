@@ -1,0 +1,13 @@
+{
+  "name": "dau-an-hoa-binh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vietnam 1954–1975: a sourced historical learning experience.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node verify.mjs",
+    "build": "node verify.mjs"
+  }
+}

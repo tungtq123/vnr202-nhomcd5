@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f1e9" />
+    <meta name="description" content="Khám phá lịch sử Việt Nam 1954–1975 qua ảnh lưu trữ, phim tài liệu từ nguồn uy tín và câu hỏi ôn tập. Hiểu những chiến thắng, nhớ những mất mát, trân trọng hòa bình." />
+    <title>Dấu ấn hòa bình — Việt Nam 1954–1975</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;450;500;550;600;650;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preload" href="/assets/dinh-doc-lap-1975.webp" as="image" />
+    <script type="module" src="/app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng</a>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Dấu ấn hòa bình — Trang đầu">
+        <span class="brand-symbol" aria-hidden="true">✳</span>
+        <span>Dấu ấn <em>hòa bình</em><small>VIỆT NAM · 1954–1975</small></span>
+      </a>
+      <nav aria-label="Điều hướng chính" class="desktop-nav">
+        <a href="#hanh-trinh">Dòng lịch sử</a>
+        <a href="#ky-uc">Ký ức chiến tranh</a>
+        <a href="#tu-lieu">Kho tư liệu</a>
+      </nav>
+      <a href="#on-tap" class="header-quiz">Góc ôn tập <span aria-hidden="true">↗</span></a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Mở điều hướng" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </header>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Điều hướng trên điện thoại" hidden>
+      <a href="#hanh-trinh">Dòng lịch sử</a><a href="#ky-uc">Ký ức chiến tranh</a><a href="#tu-lieu">Kho tư liệu</a><a href="#on-tap">Góc ôn tập</a><a href="#nguon">Nguồn tham khảo</a>
+    </nav>
+    <main id="noi-dung">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="red-line"></span> MỘT HÀNH TRÌNH LỊCH SỬ · 1954–1975</p>
+          <h1 id="hero-title">Đi qua khói lửa.<br />Hiểu giá trị<br /><em>hòa bình.</em></h1>
+          <p class="hero-description">Nhìn lại những năm tháng khốc liệt và những chiến thắng làm nên lịch sử. Để hiểu quá khứ, và trân trọng những ngày bình yên hôm nay.</p>
+          <a class="button primary" href="#hanh-trinh">Khám phá hành trình <span aria-hidden="true">↗</span></a>
+          <div class="hero-facts"><span><b>06</b> chặng lịch sử</span><span><b>07</b> video tư liệu</span><span><b>12</b> câu hỏi ôn tập</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-topline"><span>VIỆT NAM / HỒ SƠ LỊCH SỬ</span><span>ẢNH TƯ LIỆU GỐC <span aria-hidden="true">↙</span></span></div>
+          <figure class="hero-photo">
+            <img src="/assets/dinh-doc-lap-1975.webp" alt="Xe tăng quân giải phóng tiến vào Dinh Độc Lập trưa 30 tháng 4 năm 1975, ảnh của Trần Mai Hưởng" width="1000" height="669" fetchpriority="high" />
+            <figcaption><span>30.04.1975</span><p>Khoảnh khắc đi vào lịch sử.<small>Dinh Độc Lập, Sài Gòn</small></p></figcaption>
+          </figure>
+          <div class="photo-credit"><span>Ảnh: Trần Mai Hưởng / TTXVN</span><a href="https://www.vietnamplus.vn/tien-ve-sai-gon-nhung-ban-tin-buc-anh-mang-tinh-su-lieu-cua-ttxvn-post637191.vnp" target="_blank" rel="noopener noreferrer">Xem nguồn <span aria-hidden="true">↗</span></a></div>
+          <div class="archive-stamp" aria-label="Ghi nhớ quá khứ, trân trọng hòa bình"><span>GHI NHỚ QUÁ KHỨ</span><b aria-hidden="true">✳</b><span>TRÂN TRỌNG HÒA BÌNH</span></div>
+        </div>
+      </section>
+      <div class="intro-strip wrap"><span class="strip-label">HỌC TỪ NHỮNG ĐIỀU CÓ THẬT</span><p>Tư liệu có nguồn gốc. Lịch sử có chiều sâu. <em>Ký ức cần được gìn giữ.</em></p><a href="#nguon" aria-label="Tìm hiểu các nguồn tư liệu">Về tư liệu <span aria-hidden="true">↗</span></a></div>
+
+      <section id="hanh-trinh" class="journey wrap" aria-labelledby="journey-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / DÒNG LỊCH SỬ</p><h2 id="journey-title">Hai thập kỷ.<br /><em>Một khát vọng độc lập.</em></h2></div><p>Chọn một chặng để mở hồ sơ.<br />Đọc sự kiện, xem tư liệu và tự kiểm tra kiến thức.</p></div>
+        <div class="timeline" role="tablist" aria-label="Chọn chặng lịch sử" id="timeline"></div>
+        <div id="chapter-panel" class="chapter-panel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+        <div class="chapter-bottom"><span id="chapter-position">HỒ SƠ 01 / 06</span><div><button id="prev-chapter" class="text-button"><span aria-hidden="true">←</span> Chặng trước</button><button id="next-chapter" class="text-button">Chặng tiếp theo <span aria-hidden="true">→</span></button></div></div>
+      </section>
+
+      <section id="ky-uc" class="memory" aria-labelledby="memory-title">
+        <div class="wrap">
+          <div class="section-heading"><div><p class="eyebrow">02 / PHÍA SAU NHỮNG CHIẾN THẮNG</p><h2 id="memory-title">Chiến tranh đi qua.<br /><em>Nỗi đau ở lại.</em></h2></div><p>Lịch sử không chỉ là những mốc son.<br />Đó còn là những con người, những mái nhà,<br />và những cuộc đời không thể trở lại như xưa.</p></div>
+          <div class="memory-layout">
+            <figure class="memory-main"><img src="/assets/kham-thien-1972.webp" alt="Những ngôi nhà ở phố Khâm Thiên bị bom B-52 tàn phá sau trận không kích ngày 26 tháng 12 năm 1972" width="620" height="378" loading="lazy" /><figcaption><span>KHÂM THIÊN, HÀ NỘI · 12/1972</span><a href="https://special.nhandan.vn/50namkyuckhamthien/index.html" target="_blank" rel="noopener noreferrer">Ảnh: TTXVN / Báo Nhân Dân ↗</a></figcaption></figure>
+            <div class="memory-stories"><article><span class="story-number">01</span><div><h3>Những phố nhà thành đổ nát</h3><p>Đêm 26/12/1972, bom B-52 tàn phá khu dân cư Khâm Thiên. Những bức ảnh và lời kể của người sống sót lưu lại mất mát không thể chỉ đo bằng con số.</p><a href="https://special.nhandan.vn/50namkyuckhamthien/index.html" target="_blank" rel="noopener noreferrer">Đọc ký ức Khâm Thiên <span aria-hidden="true">↗</span></a></div></article><article><span class="story-number">02</span><div><h3>Những người dân vô tội</h3><p>Ngày 16/3/1968, thảm sát Sơn Mỹ cướp đi sinh mạng 504 thường dân theo số liệu tưởng niệm do VOV công bố. Nhớ về họ cũng là một cách học lịch sử.</p><a href="https://vov.vn/xa-hoi/dang-huong-tuong-niem-58-nam-ngay-504-dong-bao-son-my-bi-tham-sat-post1276085.vov" target="_blank" rel="noopener noreferrer">Tìm hiểu về Sơn Mỹ <span aria-hidden="true">↗</span></a></div></article><article><span class="story-number">03</span><div><h3>81 ngày đêm ở Thành cổ</h3><p>Quảng Trị năm 1972 là ký ức về chiến đấu và hy sinh. Đọc tư liệu để hiểu cả sự kiên cường lẫn cái giá của từng tấc đất.</p><a href="https://nvsk.vnanet.vn/cuoc-chien-dau-81-ngay-dem-bao-ve-thanh-co-quang-tri-ngay-28-6-den-16-9-1972-4-147823.vna" target="_blank" rel="noopener noreferrer">Mở hồ sơ Quảng Trị <span aria-hidden="true">↗</span></a></div></article></div>
+          </div>
+          <div class="memory-note"><span aria-hidden="true">✳</span><p>Nhìn thẳng vào sự tàn khốc của chiến tranh<br /><em>để biết gìn giữ hòa bình.</em></p><span>THÔNG ĐIỆP CỦA KHÔNG GIAN HỌC TẬP</span></div>
+        </div>
+      </section>
+
+      <section id="tu-lieu" class="library wrap" aria-labelledby="library-title">
+        <div class="section-heading"><div><p class="eyebrow">03 / KHO TƯ LIỆU</p><h2 id="library-title">Để lịch sử<br /><em>tự kể câu chuyện.</em></h2></div><p>Phim tài liệu, chương trình chuyên đề và hồ sơ<br />từ VTV, TTXVN, VOV cùng các cơ quan lưu trữ.<br />Mỗi tư liệu đều có đường dẫn đến nguồn gốc.</p></div>
+        <div class="library-toolbar"><div class="filter-group" aria-label="Loại tư liệu"><button class="filter active" data-kind="video" aria-pressed="true">Video tư liệu <span>07</span></button><button class="filter" data-kind="document" aria-pressed="false">Đọc & đối chiếu <span>16</span></button></div><label class="period-label" for="period-filter">Giai đoạn <select id="period-filter"><option value="all">Tất cả giai đoạn</option><option value="0">1954</option><option value="1">1955–1960</option><option value="2">1961–1965</option><option value="3">1965–1968</option><option value="4">1969–1973</option><option value="5">1974–1975</option></select></label></div>
+        <p id="resource-status" class="sr-only" role="status"></p><div id="resource-grid" class="resource-grid"></div>
+        <p class="library-note">Phim nhìn lại lịch sử có thể kết hợp hình ảnh lưu trữ, lời bình và phỏng vấn. Thời điểm phát hành phim được ghi riêng với thời điểm sự kiện.</p>
+      </section>
+
+      <section id="on-tap" class="review-section wrap" aria-labelledby="review-title">
+        <div class="review-copy"><p class="eyebrow">04 / DỪNG LẠI VÀ GHI NHỚ</p><h2 id="review-title">Bạn nhớ được<br /><em>những gì?</em></h2><p>Kết nối sự kiện với bối cảnh. Tự kiểm tra sau mỗi chặng, hoặc thử sức với toàn bộ hành trình.</p><div class="review-details"><span>12 câu hỏi</span><span>Có giải thích đáp án</span><span>Dẫn nguồn đối chiếu</span></div><button class="button primary" id="start-quiz">Bắt đầu ôn tập <span aria-hidden="true">↗</span></button><p id="saved-score" class="saved-score" role="status"></p></div>
+        <div class="question-preview"><div class="question-preview-top"><span>THỬ MỘT CÂU NHỎ</span><span>01 / 12</span></div><h3>Hiệp định Paris về Việt Nam<br />được ký chính thức vào ngày nào?</h3><div id="quick-options" class="quick-options"><button data-value="0"><span>A</span>21/7/1954</button><button data-value="1"><span>B</span>27/1/1973</button><button data-value="2"><span>C</span>30/4/1975</button></div><p id="quick-feedback" class="quick-feedback" role="status">Chọn một đáp án để xem giải thích.</p></div>
+      </section>
+
+      <section id="nguon" class="sources-section wrap" aria-labelledby="sources-title"><div><p class="eyebrow">NGUYÊN TẮC TƯ LIỆU</p><h2 id="sources-title">Có nguồn gốc.<br /><em>Có trách nhiệm.</em></h2></div><div class="sources-copy"><p>Không gian học tập sử dụng ảnh lưu trữ và video đã công bố bởi các cơ quan báo chí, bảo tàng và cơ quan lưu trữ. Không sử dụng hình ảnh do AI tạo. Chú thích phân biệt thời điểm sự kiện với thời điểm sản xuất tư liệu.</p><p>Nội dung là phần tổng hợp phục vụ học tập; mỗi chặng dẫn đến tài liệu để bạn đọc và đối chiếu. Quyền tác giả ảnh, phim thuộc đơn vị và tác giả được ghi nguồn.</p><details><summary>Danh mục nguồn tham khảo <span aria-hidden="true">↘</span></summary><div id="source-list"></div><div class="video-source-list" id="video-source-list"></div></details></div></section>
+    </main>
+    <footer class="site-footer wrap"><a class="brand" href="#"><span class="brand-symbol" aria-hidden="true">✳</span><span>Dấu ấn <em>hòa bình</em><small>HIỂU QUÁ KHỨ · TRÂN TRỌNG HÔM NAY</small></span></a><p>Một không gian học lịch sử Việt Nam 1954–1975.</p><a href="#">Về đầu trang <span aria-hidden="true">↑</span></a></footer>
+
+    <dialog id="video-dialog" class="video-dialog" aria-labelledby="video-title"><button class="dialog-close" aria-label="Đóng video">×</button><div id="video-container"></div><div class="video-info"><p class="eyebrow" id="video-meta"></p><h2 id="video-title"></h2><p id="video-summary"></p><p class="video-fallback" id="video-status" role="status">Nếu trình phát không tải được, bạn có thể xem tại trang nguồn.</p><a id="video-origin" class="text-link" target="_blank" rel="noopener noreferrer">Xem tại trang nguồn <span aria-hidden="true">↗</span></a></div></dialog>
+    <dialog id="quiz-dialog" class="quiz-dialog" aria-labelledby="quiz-title"><button class="dialog-close" aria-label="Đóng bài ôn tập">×</button><div id="quiz-content"></div></dialog>
+    <noscript><div class="noscript-note">Bật JavaScript để chọn chặng lịch sử, lọc tư liệu và làm câu hỏi ôn tập. Bạn vẫn có thể đọc các mục Ký ức chiến tranh và mở đường dẫn nguồn ở trang này.</div></noscript>
+  </body>
+</html>

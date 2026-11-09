@@ -1,0 +1,43 @@
+{
+  "dienbien": {
+    "page": "https://www.youtube.com/watch?v=OraI2rKcJC4",
+    "iframe": "https://www.youtube.com/embed/OraI2rKcJC4?rel=0",
+    "stream": null,
+    "publisher": "VTV4"
+  },
+  "dongkhoi": {
+    "page": "https://dbndnghean.vn/video/phong-trao-dong-khoi-buoc-ngoat-cua-cach-mang-mien-nam--phim-tai-lieu-khang-chien-chong-my-11114.htm",
+    "stream": null,
+    "iframe": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+    "poster_error": "HTTP Error 404: Not Found"
+  },
+  "apbac": {
+    "page": "https://nvsk.vnanet.vn/chien-thang-ap-bac-1-124654.vna",
+    "stream": "https://videonvsk.vnanet.vn//MediaUpload/Video/2023/09/11/tdls-btl-1276-tdls-2-1-60-nam-chien-thang-ap-bac-hd-11-18-49-36.mp4",
+    "iframe": null
+  },
+  "mauthan": {
+    "page": "https://www.youtube.com/watch?v=-VPGVS0VKas",
+    "iframe": "https://www.youtube.com/embed/-VPGVS0VKas?rel=0",
+    "stream": null,
+    "publisher": "HTV Tin Tức"
+  },
+  "hanoi": {
+    "page": "https://www.youtube.com/watch?v=ysS-HHHzRBw",
+    "iframe": "https://www.youtube.com/embed/ysS-HHHzRBw?rel=0",
+    "stream": null,
+    "publisher": "VTV24"
+  },
+  "paris": {
+    "page": "https://www.youtube.com/watch?v=8hj7twvfkvw",
+    "iframe": "https://www.youtube.com/embed/8hj7twvfkvw?rel=0",
+    "stream": null,
+    "publisher": "VTV24"
+  },
+  "saigon": {
+    "page": "https://www.youtube.com/watch?v=ecJSxFzvSKk",
+    "iframe": "https://www.youtube.com/embed/ecJSxFzvSKk?rel=0",
+    "stream": null,
+    "publisher": "VTV24"
+  }
+}
