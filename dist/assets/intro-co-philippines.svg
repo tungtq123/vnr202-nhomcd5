@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="300" fill="#0038A8"/>
+  <rect y="300" width="900" height="300" fill="#CE1126"/>
+  <polygon points="0,0 440,300 0,600" fill="#fff"/>
+  <circle cx="165" cy="300" r="50" fill="#FCD116"/>
+  <g transform="translate(165,300) rotate(0)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(45)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(90)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(135)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(180)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(225)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(270)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g><g transform="translate(165,300) rotate(315)">
+    <polygon points="0,-105 9,-48 0,-36 -9,-48" fill="#FCD116"/>
+    <polygon points="14,-90 10,-48 6,-56" fill="#FCD116"/>
+    <polygon points="-14,-90 -10,-48 -6,-56" fill="#FCD116"/>
+  </g>
+  <polygon points="58.00,44.00 64.47,63.10 84.63,63.35 68.46,75.40 74.46,94.65 58.00,83.00 41.54,94.65 47.54,75.40 31.37,63.35 51.53,63.10" fill="#FCD116"/>
+  <polygon points="360.00,328.00 353.53,308.90 333.37,308.65 349.54,296.60 343.54,277.35 360.00,289.00 376.46,277.35 370.46,296.60 386.63,308.65 366.47,308.90" fill="#FCD116"/>
+  <polygon points="30.00,528.00 49.10,521.53 49.35,501.37 61.40,517.54 80.65,511.54 69.00,528.00 80.65,544.46 61.40,538.46 49.35,554.63 49.10,534.47" fill="#FCD116"/>
+</svg>

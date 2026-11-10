@@ -7,7 +7,6 @@ from PIL import Image
 
 root = Path(__file__).parent / 'dist' / 'assets'
 pages = {
-    'dienbien': 'https://vtv.vn/video/tu-hao-dien-bien-phu-tu-hao-viet-nam-674977.htm',
     'dongkhoi': 'https://dbndnghean.vn/video/phong-trao-dong-khoi-buoc-ngoat-cua-cach-mang-mien-nam--phim-tai-lieu-khang-chien-chong-my-11114.htm',
     'apbac': 'https://nvsk.vnanet.vn/chien-thang-ap-bac-1-124654.vna',
     'mauthan': 'https://vtv.vn/video/phim-tai-lieu-nho-ve-sai-gon-mau-than-1968-tap-1-280304.htm',
