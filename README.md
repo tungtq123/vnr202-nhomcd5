@@ -1,6 +1,6 @@
 # Dấu ấn hòa bình
 
-Website tiếng Việt về lịch sử Việt Nam 1954–1975: sáu chặng, bảy video và mười hai câu hỏi ôn tập, kết hợp chiến thắng với ký ức về tổn thất chiến tranh.
+Website tiếng Việt về 3 thập kỷ lịch sử Việt Nam 1945–1975 (từ sau Cách mạng tháng Tám đến thống nhất đất nước), gồm trang chủ Hero giới thiệu kèm trình phát video tổng quan 3 phút 10 giây, trang danh sách 12 chương chuyên đề và trang nội dung chi tiết từng chương.
 
 ## Chạy và kiểm tra
 
@@ -11,25 +11,11 @@ node server.mjs
 node verify.mjs
 ```
 
-Mở `http://127.0.0.1:5173`. Thư mục triển khai là `dist/`; cấu hình Sites nằm trong `.openai/hosting.json`.
+Mở `http://127.0.0.1:5173`. Thư mục triển khai là `dist/`.
 
-- `dist/index.html`: cấu trúc nội dung và các mục tĩnh.
-- `dist/styles.css`: hệ thống màu, chữ, bố cục và thiết kế responsive.
-- `dist/data.mjs`: chặng lịch sử, nguồn, video và câu hỏi.
-- `dist/app.mjs`: chọn chặng, lọc tư liệu, trình phát và chấm điểm.
-- `dist/assets/media.json`: metadata trình phát được trích từ trang nguồn.
-- `SOURCES.md`: xuất xứ ảnh và nguyên tắc nội dung.
-
-Giao diện sử dụng Playfair Display và Be Vietnam Pro từ Google Fonts, có font hệ thống dự phòng. Các mốc lịch sử và giải thích được tổng hợp từ nguồn dẫn trong từng chặng. Không dùng ảnh AI.
-
-## Lựa chọn triển khai
-
-Trang tĩnh HTML/CSS/JavaScript không cần thư viện hay bước biên dịch. Starter Vinext của Sites đã được chuẩn bị nhưng trình quản lý gói của máy chưa có cấu hình tin cậy để chạy; bản gốc được giữ nguyên trong `starter-reference/` (bỏ qua trong Git). Website hoàn chỉnh chạy độc lập với starter.
-
-Video được phát từ máy chủ nguồn hoặc trình nhúng YouTube được lấy từ trang cơ quan đăng tải; không sao chép file phim vào dự án. Nút mở trang gốc luôn có sẵn khi đơn vị xuất bản thay đổi đường dẫn hoặc giới hạn phát. Kết quả bài ôn tập toàn bộ chỉ lưu tại trình duyệt, không có máy chủ thu thập dữ liệu.
-
-## Thiết kế
-
-Đã dùng skill ui-ux-pro-max với truy vấn `history museum editorial archive`. Kết quả phù hợp: kể chuyện theo chặng, hệ thống bố cục có lưới, kiểu chữ editorial và tương phản cao. Hướng mỹ thuật được điều chỉnh cho nội dung lịch sử: giấy ngà, xanh than, đỏ trầm; ảnh tư liệu đi kèm chú thích; không tự động phát phim, không chuyển động nền.
-
-Hỗ trợ menu điện thoại, bàn phím cho tab dòng thời gian, focus rõ, hộp thoại native có Escape, liên kết bỏ qua điều hướng và tùy chọn giảm chuyển động của hệ thống.
+- `dist/index.html` & `dist/home.mjs`: trang chủ Hero (`Khám phá 12 chương`, `Xem lại video tổng quan`) và trình phát tổng quan 3 phút 10 giây (15 phân đoạn).
+- `dist/danh-sach-chuong.html` & `dist/chapters.mjs`: trang chọn 12 chương chuyên đề (đã mở toàn bộ Chương 1–12) và mục Tóm tắt lịch sử cuộc chiến qua 6 đời Tổng thống Mỹ (1945–1975).
+- `dist/chuong.html` & `dist/chapter.mjs`: trang đọc nội dung chi tiết từng chương theo `?c=N` kèm ảnh tư liệu và nguồn đối chiếu.
+- `dist/data.mjs` & `dist/utils.mjs`: dữ liệu 25 slide tổng quan, danh mục 12 chương, 20 nguồn tài liệu xác thực và hàm tiện ích dùng chung.
+- `dist/styles.css`: hệ thống màu giấy ngà / xanh than / đỏ trầm, kiểu chữ editorial (Playfair Display & Be Vietnam Pro) và thiết kế responsive.
+- `SOURCES.md`: xuất xứ ảnh và nguyên tắc biên tập nội dung.

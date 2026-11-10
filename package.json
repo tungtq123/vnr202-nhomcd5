@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Vietnam 1954–1975: a sourced historical learning experience.",
+  "description": "Vietnam 1945–1975: a sourced historical learning experience.",
   "scripts": {
     "dev": "node server.mjs",
     "start": "node server.mjs",

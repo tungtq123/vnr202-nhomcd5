@@ -5,7 +5,6 @@ from pathlib import Path
 path = Path('dist/assets/media.json')
 data = json.loads(path.read_text(encoding='utf-8'))
 youtube = {
-    'dienbien': 'OraI2rKcJC4',
     'mauthan': '-VPGVS0VKas',
     'hanoi': 'ysS-HHHzRBw',
     'paris': '8hj7twvfkvw',
@@ -16,6 +15,6 @@ for key, video_id in youtube.items():
         'page': f'https://www.youtube.com/watch?v={video_id}',
         'iframe': f'https://www.youtube.com/embed/{video_id}?rel=0',
         'stream': None,
-        'publisher': 'VTV4' if key == 'dienbien' else 'HTV Tin Tức' if key == 'mauthan' else 'VTV24',
+        'publisher': 'HTV Tin Tức' if key == 'mauthan' else 'VTV24',
     }
 path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
